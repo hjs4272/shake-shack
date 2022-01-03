@@ -1,0 +1,17 @@
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list img {
+    width: 230px;
+    height: 50px;
+    margin: 0 30px;
+}
+.nav-list-name{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6EB83F;
+    padding: 30px 0 30px 50px;
+    
+}

@@ -21,7 +21,7 @@
 }
                 /*  */
 .anniversary-wrapper__1{
-    background: url(../images/fifth_01.jpg) no-repeat;
+    background: url(../../images/fifth_01.jpg) no-repeat;
     margin-top: 55px;
     width: 900px;
     height: 963px;
@@ -61,7 +61,7 @@
 }
                 /*  */
 .anniversary-wrapper__2{
-    background: url(../images/fifth_02.jpg) no-repeat;
+    background: url(../../images/fifth_02.jpg) no-repeat;
     width: 900px;
     height: 128px;
     text-align: center;
@@ -79,7 +79,7 @@
 }
                 /*  */
 .anniversary-wrapper__3{
-    background: url(../images/fifth_03.jpg) no-repeat;
+    background: url(../../images/fifth_03.jpg) no-repeat;
     width: 900px;
     height: 752px;
     text-align: center;
@@ -124,7 +124,7 @@
 
                 /*  */
 .anniversary-wrapper__4{
-    background: url(../images/fifth_04.jpg) no-repeat;
+    background: url(../../images/fifth_04.jpg) no-repeat;
     /* 원래 width : 444px 이지만 이미지:fifth05, 06의 justify-content : right 맞추기 위해 width 넓힘 */
     width: 900px;
     height: 181px;
@@ -147,7 +147,7 @@
 }
                 /*  */
 .anniversary-wrapper__7{
-    background: url(../images/fifth_07.jpg) no-repeat;
+    background: url(../../images/fifth_07.jpg) no-repeat;
     width: 900px;
     height: 190px;
 }

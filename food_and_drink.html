@@ -4,11 +4,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>'뉴욕에서 온 파인 캐쥬얼 레스토랑, 쉐이크쉑'</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/etc/reset.css">
+    <link rel="stylesheet" href="css/etc/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/etc/variable.css">
     <link rel="shortcut icon" type="image/x-icon" href="https://www.mcdonalds.co.kr/kor/images/favicon.ico">
+    <link rel="stylesheet" href="css/pc-version/style.css" media="screen and (min-width: 1024px)">
+    <link rel="stylesheet" href="css/mobile-version/style-m.css" media="screen and (max-width: 1024px)">
+    <title>'뉴욕에서 온 파인 캐쥬얼 레스토랑, 쉐이크쉑'</title>
 </head>
 <body>
+        <!-- 왼쪽 햄버거 사이드 쇼 메뉴 -->
+        <div id="leftMenu" class="mobile-hamberger-leftMenu">
+        
+            <div class="mobile-hamberger-leftMenu__xbtn">
+                <i class="fas fa-times fa-2x" onclick="closeNav();"></i>
+            </div>
+            <a href="index.html"><div class="mobile-hamberger-leftMenu__logo">
+                <img src="images/ss_white.png" alt="">
+            </div></a>
+            <a href="food_and_drink.html"><div class="mobile-hamberger-leftMenu__title">
+                FOOD & DRINK
+            </div></a>
+            <a href="brand-story.html"><div class="mobile-hamberger-leftMenu__title">
+                BRAND STORY
+            </div></a>
+            <a href="delivery.html"><div class="mobile-hamberger-leftMenu__title">
+                DELIVERY
+            </div></a>
+            <!-- <a href="anniversary_5th.html"><div class="mobile-hamberger-leftMenu__title">
+                DELIVERY
+            </div></a> -->
+
+        
+    </div>
+
+
+
+        <!-- 오른쪽 위치 사이드 쇼 메뉴 -->
+        <div id="rightMenu" class="mobile-location-rightMenu">
+        
+            <div class="mobile-location-rightMenu__xbtn">
+                <i class="fas fa-times fa-2x" onclick="closeNav2();"></i>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="location.html">Gangnam 강남</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Cheongdam 청담</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Doota 두타</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">AK Plaza 분당</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Starfield 고양</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Incheon Airport 인천공항</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Central City 센트럴시티</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Songdo 송도</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Seomyeon 서면</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Jonggak 종각</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Times Square 영등포</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">IParkmall 용산</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Dongseongro 대구</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Timeworld 대전</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Nowon 노원</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Coex 코엑스</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Dongtan 동탄</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Hongdae 홍대</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Sillim 신림</a>
+            </div>
+
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- html 시작 -->
+    <header class="mobile-status-bar">
+            <a href="#"><i class="fas fa-bars fa-2x" onclick="openNav();"></i></a>
+
+            <a href="index.html"><img src="images/ss_logo.png" alt=""></a>
+
+            <a href="#"><i class="fas fa-map-marker-alt fa-2x" onclick="openNav2();"></i></a>
+    </header>
     <nav class="nav">
         <ul class="nav-list">
             <li class="nav-list-name"><a href="anniversary_5th.html">5TH ANNIVERSARY</a></li>
@@ -20,6 +145,11 @@
         </ul>
     </nav>
     
+
+
+
+<div class="food-drink-pc">
+
     <div class="main-slide main-slide00">
         <img src="images/sub_visual_01.jpg">    
     </div>
@@ -221,7 +351,172 @@
         </div>
 
     </div>
+</div>  <!-- food-drink-pc -->
 
+
+
+
+
+
+<div class="mobile-food-and-drink">
+    <div class="mobile-food-and-drink__img">
+        <img src="images/bugers_200630.jpg" alt="">
+    </div>
+    <div class="mobile-food-and-drink__title">
+        Burgers 버거
+    </div>
+    <div class="mobile-food-and-drink__text">
+        쉐이크쉑의 시그니처 앵거스 비프 패티와 쫄깃한 식감의 토종효모 포테이토 번, 토마토, 양상추에 쉑소스를 올려 만든 심플하면서도 맛있는 쉑버거와 그 외 다양한 버거 메뉴가 있습니다. <br>
+        채식을 사랑한다면 치즈로 속을 채워 바삭하게 튀겨낸 포토벨로 버섯 패티가 들어간 슈룸 버거도 만나보세요. <br>
+        쉐이크쉑 코리아는 늘 신선한 맛과 품질 유지를 위해 쉐이크쉑 본사에서 승인한 국내의 우수한 파트너사의 식재료를 사용합니다.
+    </div>
+    <div class="mobile-food-and-drink__look-detail">
+        <p>자세히보기</p>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+
+</div>
+<div class="mobile-food-and-drink">
+    <div class="mobile-food-and-drink__img">
+        <img src="images/chicken_200630.jpg" alt="">
+    </div>
+    <div class="mobile-food-and-drink__title">
+        Chicken 치킨
+    </div>
+    <div class="mobile-food-and-drink__text">
+        신선한 닭가슴 통살을 버터밀크에 수비드 하여 주문과 동시에 바삭하게 튀겼습니다. 토종 효모 포테이토 번, 아삭한 식감의 양상추와 피클, 쉐이크쉑만의 허브 마요 소스가 토핑된 바삭하고 두툼한 프리미엄 치킨 버거를 즐겨보세요.
+    </div>
+    <div class="mobile-food-and-drink__look-detail">
+        <p>자세히보기</p>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+
+</div>
+<div class="mobile-food-and-drink">
+    <div class="mobile-food-and-drink__img">
+        <img src="images/dog_210302.jpg" alt="">
+    </div>
+    <div class="mobile-food-and-drink__title">
+        Flat-Top Dogs 플랫-탑 도그
+    </div>
+    <div class="mobile-food-and-drink__text">
+        쉐이크쉑의 시작을 알리기도 했던 플랫-탑 도그를 버거와 함께 즐겨보세요! <br> 
+        쫄깃한 토종 효모 포테이토 번 위에 참나무 칩으로 훈연한 비프 소시지가 들어간 담백한 핫 도그에 다양한 토핑을 추가해서 맛도 UP! 즐거움도 UP! 시켜보세요
+    </div>
+    <div class="mobile-food-and-drink__look-detail">
+        <p>자세히보기</p>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</div>
+<div class="mobile-food-and-drink">
+    <div class="mobile-food-and-drink__img">
+        <img src="images/side_210322.jpg" alt="">
+    </div>
+    <div class="mobile-food-and-drink__title">
+        Side 사이드
+    </div>
+    <div class="mobile-food-and-drink__text">
+        버거를 먹을 때 사이드 메뉴가 빠져서는 안되죠! 바삭하게 튀겨낸 치킨 바이트를 디핑 소스에 듬뿍 찍어 한 입, 짭짤한 감자튀김을 달콤한 쉐이크에 찍어 한 입. 쉐이크쉑의 사이드 메뉴와 함께라면 그날의 스트레스는 모두 날아갈 거에요!
+    </div>
+    <div class="mobile-food-and-drink__look-detail">
+        <p>자세히보기</p>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</div>
+<div class="mobile-food-and-drink">
+    <div class="mobile-food-and-drink__img">
+        <img src="images/custard_200630.jpg" alt="">
+    </div>
+    <div class="mobile-food-and-drink__title">
+        Custard 커스터드
+    </div>
+    <div class="mobile-food-and-drink__text">
+        매장에서 매일 신선하게 제조하는 쫀득하고 진한 커스터드를 드셔보세요. 입안 가득 퍼지는 부드럽고 달콤한 맛이 당신의 하루를 더욱 완벽하게 만들 것입니다. <br>
+        클래식 쉐이크 외에도 시즌별로 한정된 기간 동안 맛볼 수 있는 피처드 쉐이크, 각 지역의 특성을 살려 탄생한 매장별 시그니처 콘크리트 등 쉐이크쉑이 전하는 달콤함에 빠져보세요.
+    </div>
+    <div class="mobile-food-and-drink__look-detail">
+        <p>자세히보기</p>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</div>
+<div class="mobile-food-and-drink">
+    <div class="mobile-food-and-drink__img">
+        <img src="images/concretes_main_201105.jpg" alt="">
+    </div>
+    <div class="mobile-food-and-drink__title">
+        Concretes 콘크리트
+    </div>
+    <div class="mobile-food-and-drink__text">
+        쫀득하고 진한 맛의 커스터드와 다양한 믹스-인이 만나 탄생한 쉐이크쉑만의 디저트 메뉴, 콘크리트를 만나보세요. 혹시 알고 계셨나요? 쉐이크쉑의 매장마다 각 지역의 특성을 살려 탄생한 매장별 시그니처 콘크리트가 있다는 사실! 콘크리트와 함께 쉐이크쉑에서의 달콤한 마무리를 즐겨보세요!
+    </div>
+    <div class="mobile-food-and-drink__look-detail">
+        <p>자세히보기</p>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</div>
+<div class="mobile-food-and-drink">
+    <div class="mobile-food-and-drink__img">
+        <img src="images/drinks_200528.jpg" alt="">
+    </div>
+    <div class="mobile-food-and-drink__title">
+        Drinks 음료
+    </div>
+    <div class="mobile-food-and-drink__text">
+        매장에서 직접 만드는 상큼한 레몬에이드, 달지 않고 향긋한 아이스티, 레몬에이드와 아이스티를 반반 섞은 쉐이크쉑의 시그니처 음료 피프티/피프티도 잊지 마세요.
+    </div>
+    <div class="mobile-food-and-drink__look-detail">
+        <p>자세히보기</p>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</div>
+<div class="mobile-food-and-drink">
+    <div class="mobile-food-and-drink__img">
+        <img src="images/beer_200630.jpg" alt="">
+    </div>
+    <div class="mobile-food-and-drink__title">
+        Beer and Wine 맥주와 와인
+    </div>
+    <div class="mobile-food-and-drink__text">
+        쉑버거의 절친이라 할 수 있는 쉑마이스터 에일을 소개합니다. 쉐이크쉑의 버거 맛을 돋우기 위해 핸드앤몰트에서 특별히 양조한 쉑마이스터 에일 한 모금이면 버거의 풍미는 두 배가 될 거예요. <br>
+        와인을 찾는 게스트들을 위해 프랑스 라파주 와이너리에서 생산한 쉑 와인 (쉑 레드, 쉑 화이트)도 있답니다.
+    </div>
+    <div class="mobile-food-and-drink__look-detail">
+        <p>자세히보기</p>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</div>
+<div class="mobile-food-and-drink">
+    <div class="mobile-food-and-drink__img">
+        <img src="images/menu_09.jpg" alt="">
+    </div>
+    <div class="mobile-food-and-drink__title">
+        Breakfast 아침 메뉴
+    </div>
+    <div class="mobile-food-and-drink__text">
+        ( ~ 10:00am) <br>
+        여행을 떠나기 전, 든든하게 배를 채워보세요. <br>
+        쉐이크쉑의 특별한 아침 메뉴는 오직 인천공항 T2에서만 즐길 수 있습니다.
+    </div>
+    <div class="mobile-food-and-drink__look-detail">
+        <p>자세히보기</p>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</div>
+<div class="mobile-food-and-drink">
+    <div class="mobile-food-and-drink__img">
+        <img src="images/menu_07.jpg" alt="">
+    </div>
+    <div class="mobile-food-and-drink__title">
+        For Dogs 강아지 메뉴
+    </div>
+    <div class="mobile-food-and-drink__text">
+        우리 마음 속엔 언제나 귀여운 네 발 친구도 함께 합니다. 행복한 반려견을 위한 강아지 테이크 아웃 메뉴도 준비해 두었거든요.
+    </div>
+    <div class="mobile-food-and-drink__look-detail">
+        <p>자세히보기</p>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</div>
 
 
 
@@ -231,7 +526,7 @@
 
    
 
-    <div class="footer">
+    <footer>
         <div class="footer__top">
             <ul class="footer__top__tb">
                 <li class="footer__top__tb__title">For You</li>
@@ -273,6 +568,39 @@
                 <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/shakeshackkorea/" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=188688734509783&amp;container_width=195&amp;href=https%3A%2F%2Fwww.facebook.com%2Fshakeshackkorea%2F&amp;layout=box_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false"><span style="vertical-align: bottom; width: 62px; height: 48px;"><iframe name="f3e7acc8322df28" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.6/plugins/like.php?action=like&amp;app_id=188688734509783&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2e88ac931f2874%26domain%3Dwww.shakeshack.kr%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fwww.shakeshack.kr%252Ff1163107aaef798%26relation%3Dparent.parent&amp;container_width=195&amp;href=https%3A%2F%2Fwww.facebook.com%2Fshakeshackkorea%2F&amp;layout=box_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" style="border: none; visibility: visible; width: 62px; height: 48px;" class=""></iframe></span></div>
             </div>
         </div>
+    </footer>
+
+    <div class="mobile-footer">
+        <div class="mobile-footer__title">For You</div>
+        <div class="mobile-footer__sub__title">
+            <a href="https://homevoc.spc.co.kr/Voc/created.ub" target="blank"><span>고객센터</span></a>
+            <a href="https://www.spc.co.kr/csr/right-mng/tip-off-intro/" target="blank"><span class="mobile-footer__left-border">윤리신고센터</span></a>
+            <a href="https://www.spc.co.kr/" target="blank"><span class="mobile-footer__left-border">SPC 홈페이지</span></a>
+        </div>
+        <div class="mobile-footer__title">shakeshack</div>
+        <div class="mobile-footer__sub__title">
+            <a href="https://www.jobkorea.co.kr/Search/?stext=%e3%88%9c%ed%8c%8c%eb%a6%ac%ed%81%ac%eb%9d%bc%ec%83%81" target="blank"><span>채용안내</span></a>
+            <a href="http://www.shakeshack.kr/location/location01.jsp" target="blank"><span class="mobile-footer__left-border">매장안내</span></a>
+            
+        </div>
+        <div class="mobile-footer__title">Social Media</div>
+        <div class="mobile-footer__sub__title">
+            <a href="https://www.instagram.com/shakeshackkr/" target="blank"><span>인스타그램</span></a>
+            <a href="https://post.naver.com/shakeshackkorea?isHome=1" target="blank"><span class="mobile-footer__left-border">네이버포스트</span></a>
+            <a href="https://www.youtube.com/channel/UCw86ggEkvY8_RXpvCFjNS6g" target="blank"><span class="mobile-footer__left-border">유튜브</span></a>
+            <a href="https://www.facebook.com/shakeshackkorea" target="blank"><span class="mobile-footer__left-border">페이스북</span></a>
+        </div>
+        <iframe class="mobile-footer__facebook-icon" name="f4bc4ab7acc094" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.6/plugins/like.php?action=like&amp;app_id=188688734509783&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1b64cc01793488%26domain%3Dwww.shakeshack.kr%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fwww.shakeshack.kr%252Ff40ee94eef993%26relation%3Dparent.parent&amp;container_width=195&amp;href=https%3A%2F%2Fwww.facebook.com%2Fshakeshackkorea%2F&amp;layout=box_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" style="border: none; visibility: visible; width: 62px; height: 48px;" ></iframe>
+
+        <img class="mobile-footer__logo" src="images/ss_logo_footer.png" alt="">
+        <div class="mobile-footer__text">
+            <p>2021 SHAKE SHACK. ALL RIGHTS RESERVED.</p>
+            <br>
+            <p>SOME INFORMATION ON THIS SITE MAY VARY SLIGHTLY BY</p>
+            <p>LOCATION AND IN STADIUMS,</p>
+            <p>EVENT VENUES AND INTERNATIONAL SHACKS.</p>
+        </div>
+        <div class="mobile-footer__text__last"><a href="http://www.shakeshack.kr/cs/cctv.jsp" target="blank">영상정보처리기기운영·관리방침</a></div>
     </div>
 
 
@@ -286,10 +614,9 @@
 
 
 
-
-
-
-
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

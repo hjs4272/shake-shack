@@ -1,0 +1,43 @@
+.mobile-main-slide{
+    /* position: relative; */
+    margin-bottom: 35px;
+}
+
+.mobile-main-slide img{
+    width: 100%;
+    height: 100%;
+}
+.mobile-main-slide__btn{
+    display: flex;
+    justify-content: flex-end; 
+    position: absolute;
+    top: 368px;
+}
+
+
+
+/* 스와이퍼 슬라이드 */
+.swiper-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination {
+    /* position: absolute;
+    top: 380px; */
+}
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    color: #666666;
+}
+.swiper-pagination-bullet-active {
+    background-color: var(--green);
+}

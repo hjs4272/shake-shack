@@ -1,3 +1,23 @@
+// 햄버거 사이드 쇼업 메뉴
+function openNav(){
+    $("#leftMenu").addClass("showLeftMenu");
+}
+
+function closeNav(){
+    $("#leftMenu").removeClass("showLeftMenu")
+}
+
+// 오른쪽 location 사이드 쇼업 메뉴
+function openNav2(){
+    $("#rightMenu").addClass("showRightMenu");
+}
+
+function closeNav2(){
+    $("#rightMenu").removeClass("showRightMenu")
+}
+
+
+
 // 1번째 스와이프 슬라이드
 $(document).ready(function(){
     // {}안에는 속성값 - 기본적으로 변수, 오브젝트값(json)

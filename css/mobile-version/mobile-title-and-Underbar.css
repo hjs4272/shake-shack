@@ -1,0 +1,21 @@
+.mobile-title-and-Underbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-title-and-Underbar h1{
+    font-family: var(--contents-title__fontfamily);
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.mobile-title-and-Underbar p{
+    width: 100px;
+    height: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: var(--green);
+    text-indent: -1000em;
+}

@@ -1,0 +1,45 @@
+@import url(mobile-side-show-menu.css);
+@import url(mobile-status-bar.css);
+@import url(mobile-main-slide.css);
+@import url(mobile-contents-title.css);
+@import url(mobile-contents-box-index.css);
+@import url(mobile-footer.css);
+@import url(mobile-brandstory.css);
+@import url(mobile-main-img.css);
+@import url(mobile-title-and-Underbar.css);
+@import url(mobile-delivery.css);
+@import url(mobile-food-and-drink_m.css);
+@import url(mobile-location.css);
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+html, body{
+    position: relative;
+}
+body {
+    background-color: #f1f2ed;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 400;
+}
+
+
+
+nav,
+.swiper-container2,
+.swiper-container-PC,
+.contents-title span,
+.contents-box-index__img,
+footer,
+.brand-story-pc,
+.delivery-pc,
+.food-drink-pc,
+.location01-pc{
+    display: none;
+}

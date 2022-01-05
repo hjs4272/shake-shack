@@ -4,11 +4,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>'뉴욕에서 온 파인 캐쥬얼 레스토랑, 쉐이크쉑'</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/etc/reset.css">
+    <link rel="stylesheet" href="css/etc/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/etc/variable.css">
     <link rel="shortcut icon" type="image/x-icon" href="https://www.mcdonalds.co.kr/kor/images/favicon.ico">
+    <link rel="stylesheet" href="css/pc-version/style.css" media="screen and (min-width: 1024px)">
+    <link rel="stylesheet" href="css/mobile-version/style-m.css" media="screen and (max-width: 1024px)">
+    <title>'뉴욕에서 온 파인 캐쥬얼 레스토랑, 쉐이크쉑'</title>
 </head>
 <body>
+        <!-- 왼쪽 햄버거 사이드 쇼 메뉴 -->
+        <div id="leftMenu" class="mobile-hamberger-leftMenu">
+        
+            <div class="mobile-hamberger-leftMenu__xbtn">
+                <i class="fas fa-times fa-2x" onclick="closeNav();"></i>
+            </div>
+            <a href="index.html"><div class="mobile-hamberger-leftMenu__logo">
+                <img src="images/ss_white.png" alt="">
+            </div></a>
+            <a href="food_and_drink.html"><div class="mobile-hamberger-leftMenu__title">
+                FOOD & DRINK
+            </div></a>
+            <a href="brand-story.html"><div class="mobile-hamberger-leftMenu__title">
+                BRAND STORY
+            </div></a>
+            <a href="delivery.html"><div class="mobile-hamberger-leftMenu__title">
+                DELIVERY
+            </div></a>
+            <!-- <a href="anniversary_5th.html"><div class="mobile-hamberger-leftMenu__title">
+                DELIVERY
+            </div></a> -->
+
+        
+    </div>
+
+
+
+        <!-- 오른쪽 위치 사이드 쇼 메뉴 -->
+        <div id="rightMenu" class="mobile-location-rightMenu">
+        
+            <div class="mobile-location-rightMenu__xbtn">
+                <i class="fas fa-times fa-2x" onclick="closeNav2();"></i>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="location.html">Gangnam 강남</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Cheongdam 청담</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Doota 두타</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">AK Plaza 분당</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Starfield 고양</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Incheon Airport 인천공항</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Central City 센트럴시티</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Songdo 송도</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Seomyeon 서면</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Jonggak 종각</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Times Square 영등포</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">IParkmall 용산</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Dongseongro 대구</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Timeworld 대전</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Nowon 노원</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Coex 코엑스</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Dongtan 동탄</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Hongdae 홍대</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Sillim 신림</a>
+            </div>
+
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- html 시작 -->
+    <header class="mobile-status-bar">
+            <a href="#"><i class="fas fa-bars fa-2x" onclick="openNav();"></i></a>
+
+            <a href="index.html"><img src="images/ss_logo.png" alt=""></a>
+
+            <a href="#"><i class="fas fa-map-marker-alt fa-2x" onclick="openNav2();"></i></a>
+    </header>
     <nav class="nav">
         <ul class="nav-list">
             <li class="nav-list-name"><a href="anniversary_5th.html">5TH ANNIVERSARY</a></li>
@@ -124,65 +249,91 @@
 
 
 
-<div class="footer">
-    <div class="footer__top">
-        <ul class="footer__top__tb">
-            <li class="footer__top__tb__title">For You</li>
-            <li class="footer__top__tb__text"><a href="https://homevoc.spc.co.kr/Voc/created.ub" target="blank">고객센터</a></li>
-            <li class="footer__top__tb__text"><a href="https://www.spc.co.kr/csr/right-mng/tip-off-intro/" target="blank">윤리신고센터</a></li>
-            <li class="footer__top__tb__text"><a href="https://www.spc.co.kr/" target="blank">SPC 홈페이지</a></li>
-        </ul>
-        <ul class="footer__top__tb">
-            <li class="footer__top__tb__title">Shakeshack</li>
-            <li class="footer__top__tb__text"><a href="https://www.jobkorea.co.kr/Recruit/GI_Read/27605169?Oem_Code=C1" target="blank">채용안내</a></li>
-            <li class="footer__top__tb__text"><a href="">매장안내</a></li>
-        </ul>
-        <ul class="footer__top__tb">
-            <li class="footer__top__tb__title">Social</li>
-            <li class="footer__top__tb__text"><a href="https://www.instagram.com/shakeshackkr/" target="blank">인스타그램</a></li>
-            <li class="footer__top__tb__text"><a href="https://post.naver.com/shakeshackkorea" target="blank">네이버 포스트</a></li>
-            <li class="footer__top__tb__text"><a href="https://www.youtube.com/channel/UCw86ggEkvY8_RXpvCFjNS6g" target="blank">유튜브</a></li>
-            <li class="footer__top__tb__text"><a href="https://www.facebook.com/shakeshackkorea" target="blank">페이스북</a></li>
-        </ul>
-    </div>
+    <footer>
+        <div class="footer__top">
+            <ul class="footer__top__tb">
+                <li class="footer__top__tb__title">For You</li>
+                <li class="footer__top__tb__text"><a href="https://homevoc.spc.co.kr/Voc/created.ub" target="blank">고객센터</a></li>
+                <li class="footer__top__tb__text"><a href="https://www.spc.co.kr/csr/right-mng/tip-off-intro/" target="blank">윤리신고센터</a></li>
+                <li class="footer__top__tb__text"><a href="https://www.spc.co.kr/" target="blank">SPC 홈페이지</a></li>
+            </ul>
+            <ul class="footer__top__tb">
+                <li class="footer__top__tb__title">Shakeshack</li>
+                <li class="footer__top__tb__text"><a href="https://www.jobkorea.co.kr/Recruit/GI_Read/27605169?Oem_Code=C1" target="blank">채용안내</a></li>
+                <li class="footer__top__tb__text"><a href="">매장안내</a></li>
+            </ul>
+            <ul class="footer__top__tb">
+                <li class="footer__top__tb__title">Social</li>
+                <li class="footer__top__tb__text"><a href="https://www.instagram.com/shakeshackkr/" target="blank">인스타그램</a></li>
+                <li class="footer__top__tb__text"><a href="https://post.naver.com/shakeshackkorea" target="blank">네이버 포스트</a></li>
+                <li class="footer__top__tb__text"><a href="https://www.youtube.com/channel/UCw86ggEkvY8_RXpvCFjNS6g" target="blank">유튜브</a></li>
+                <li class="footer__top__tb__text"><a href="https://www.facebook.com/shakeshackkorea" target="blank">페이스북</a></li>
+            </ul>
+        </div>
 
 
 
 
 
 
-    <div class="footer__bottom">
-        <div class="footer__bottom__polocy">
-            <img src="images/ss_logo_footer.png">
-            <p>2021 SHAKE SHACK. ALL RIGHTS RESERVED. </p><br>
+        <div class="footer__bottom">
+            <div class="footer__bottom__polocy">
+                <img src="images/ss_logo_footer.png">
+                <p>2021 SHAKE SHACK. ALL RIGHTS RESERVED. </p><br>
+                <p>SOME INFORMATION ON THIS SITE MAY VARY SLIGHTLY BY</p>
+                <p>LOCATION AND IN STADIUMS,</p>
+                <p>EVENT VENUES AND INTERNATIONAL SHACKS. </p><br>
+                <p><a href="http://www.shakeshack.kr/cs/cctv.jsp">영상정보처리기기운영·관리방침</a></p>
+            </div>
+
+
+            <div class="footer__bottom__facebook">
+                <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/shakeshackkorea/" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=188688734509783&amp;container_width=195&amp;href=https%3A%2F%2Fwww.facebook.com%2Fshakeshackkorea%2F&amp;layout=box_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false"><span style="vertical-align: bottom; width: 62px; height: 48px;"><iframe name="f3e7acc8322df28" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.6/plugins/like.php?action=like&amp;app_id=188688734509783&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2e88ac931f2874%26domain%3Dwww.shakeshack.kr%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fwww.shakeshack.kr%252Ff1163107aaef798%26relation%3Dparent.parent&amp;container_width=195&amp;href=https%3A%2F%2Fwww.facebook.com%2Fshakeshackkorea%2F&amp;layout=box_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" style="border: none; visibility: visible; width: 62px; height: 48px;" class=""></iframe></span></div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="mobile-footer">
+        <div class="mobile-footer__title">For You</div>
+        <div class="mobile-footer__sub__title">
+            <a href="https://homevoc.spc.co.kr/Voc/created.ub" target="blank"><span>고객센터</span></a>
+            <a href="https://www.spc.co.kr/csr/right-mng/tip-off-intro/" target="blank"><span class="mobile-footer__left-border">윤리신고센터</span></a>
+            <a href="https://www.spc.co.kr/" target="blank"><span class="mobile-footer__left-border">SPC 홈페이지</span></a>
+        </div>
+        <div class="mobile-footer__title">shakeshack</div>
+        <div class="mobile-footer__sub__title">
+            <a href="https://www.jobkorea.co.kr/Search/?stext=%e3%88%9c%ed%8c%8c%eb%a6%ac%ed%81%ac%eb%9d%bc%ec%83%81" target="blank"><span>채용안내</span></a>
+            <a href="http://www.shakeshack.kr/location/location01.jsp" target="blank"><span class="mobile-footer__left-border">매장안내</span></a>
+            
+        </div>
+        <div class="mobile-footer__title">Social Media</div>
+        <div class="mobile-footer__sub__title">
+            <a href="https://www.instagram.com/shakeshackkr/" target="blank"><span>인스타그램</span></a>
+            <a href="https://post.naver.com/shakeshackkorea?isHome=1" target="blank"><span class="mobile-footer__left-border">네이버포스트</span></a>
+            <a href="https://www.youtube.com/channel/UCw86ggEkvY8_RXpvCFjNS6g" target="blank"><span class="mobile-footer__left-border">유튜브</span></a>
+            <a href="https://www.facebook.com/shakeshackkorea" target="blank"><span class="mobile-footer__left-border">페이스북</span></a>
+        </div>
+        <iframe class="mobile-footer__facebook-icon" name="f4bc4ab7acc094" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.6/plugins/like.php?action=like&amp;app_id=188688734509783&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1b64cc01793488%26domain%3Dwww.shakeshack.kr%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fwww.shakeshack.kr%252Ff40ee94eef993%26relation%3Dparent.parent&amp;container_width=195&amp;href=https%3A%2F%2Fwww.facebook.com%2Fshakeshackkorea%2F&amp;layout=box_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" style="border: none; visibility: visible; width: 62px; height: 48px;" ></iframe>
+
+        <img class="mobile-footer__logo" src="images/ss_logo_footer.png" alt="">
+        <div class="mobile-footer__text">
+            <p>2021 SHAKE SHACK. ALL RIGHTS RESERVED.</p>
+            <br>
             <p>SOME INFORMATION ON THIS SITE MAY VARY SLIGHTLY BY</p>
             <p>LOCATION AND IN STADIUMS,</p>
-            <p>EVENT VENUES AND INTERNATIONAL SHACKS. </p><br>
-            <p><a href="http://www.shakeshack.kr/cs/cctv.jsp">영상정보처리기기운영·관리방침</a></p>
+            <p>EVENT VENUES AND INTERNATIONAL SHACKS.</p>
         </div>
-
-
-        <div class="footer__bottom__facebook">
-            <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/shakeshackkorea/" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=188688734509783&amp;container_width=195&amp;href=https%3A%2F%2Fwww.facebook.com%2Fshakeshackkorea%2F&amp;layout=box_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false"><span style="vertical-align: bottom; width: 62px; height: 48px;"><iframe name="f3e7acc8322df28" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.6/plugins/like.php?action=like&amp;app_id=188688734509783&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2e88ac931f2874%26domain%3Dwww.shakeshack.kr%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fwww.shakeshack.kr%252Ff1163107aaef798%26relation%3Dparent.parent&amp;container_width=195&amp;href=https%3A%2F%2Fwww.facebook.com%2Fshakeshackkorea%2F&amp;layout=box_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" style="border: none; visibility: visible; width: 62px; height: 48px;" class=""></iframe></span></div>
-        </div>
+        <div class="mobile-footer__text__last"><a href="http://www.shakeshack.kr/cs/cctv.jsp" target="blank">영상정보처리기기운영·관리방침</a></div>
     </div>
-</div>
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-<script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

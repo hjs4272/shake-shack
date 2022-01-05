@@ -1,0 +1,74 @@
+.food-drink-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 791px;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-bottom: var(--main-border);
+}
+.food-drink-menu__name{
+    padding: 0 14px;
+    color: #222;
+    font-size: 11px;
+}
+    /* ------------------------------------ */
+
+
+.food-drink-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.food-drink-main__text{
+    width: 398px;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 0 100px;
+}
+
+.food-drink-main__text__title{      /* ===location 타이틀 */
+    font-family: var(--contents-title__fontfamily);
+    font-size: 28px;
+    font-weight: bold;
+}
+.food-drink-main__text__info{
+    padding-top: 50px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+.look-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1004px;
+    margin: 0 auto;
+    padding: 60px 0 20px 0;
+    border-bottom: var(--main-border);
+}
+
+.look-detail__text{
+    font-size: 15px;
+    font-weight: 600;
+}
+.main-contents-fooddrink-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 가로사진 flex 및 패딩 설정 */
+.food-drink-main--horizontal{
+    align-items: flex-start;
+}
+.food-drink-main__text--horizontal{
+    height: 50%;
+    padding: 0 167px 0 50px;
+}

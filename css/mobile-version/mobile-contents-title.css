@@ -1,0 +1,15 @@
+.contents-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.contents-title h2 {
+    font-family: var(--contents-title__fontfamily);
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -.5px;
+    margin: 15px 0 20px 0;
+    text-align: center;
+}

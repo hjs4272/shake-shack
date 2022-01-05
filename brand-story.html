@@ -4,11 +4,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>'뉴욕에서 온 파인 캐쥬얼 레스토랑, 쉐이크쉑'</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/etc/reset.css">
+    <link rel="stylesheet" href="css/etc/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/etc/variable.css">
     <link rel="shortcut icon" type="image/x-icon" href="https://www.mcdonalds.co.kr/kor/images/favicon.ico">
+    <link rel="stylesheet" href="css/pc-version/style.css" media="screen and (min-width: 1024px)">
+    <link rel="stylesheet" href="css/mobile-version/style-m.css" media="screen and (max-width: 1024px)">
+    <title>'뉴욕에서 온 파인 캐쥬얼 레스토랑, 쉐이크쉑'</title>
 </head>
 <body>
+        <!-- 왼쪽 햄버거 사이드 쇼 메뉴 -->
+        <div id="leftMenu" class="mobile-hamberger-leftMenu">
+        
+            <div class="mobile-hamberger-leftMenu__xbtn">
+                <i class="fas fa-times fa-2x" onclick="closeNav();"></i>
+            </div>
+            <a href="index.html"><div class="mobile-hamberger-leftMenu__logo">
+                <img src="images/ss_white.png" alt="">
+            </div></a>
+            <a href="food_and_drink.html"><div class="mobile-hamberger-leftMenu__title">
+                FOOD & DRINK
+            </div></a>
+            <a href="brand-story.html"><div class="mobile-hamberger-leftMenu__title">
+                BRAND STORY
+            </div></a>
+            <a href="delivery.html"><div class="mobile-hamberger-leftMenu__title">
+                DELIVERY
+            </div></a>
+            <!-- <a href="anniversary_5th.html"><div class="mobile-hamberger-leftMenu__title">
+                DELIVERY
+            </div></a> -->
+
+        
+    </div>
+
+
+
+        <!-- 오른쪽 위치 사이드 쇼 메뉴 -->
+        <div id="rightMenu" class="mobile-location-rightMenu">
+        
+            <div class="mobile-location-rightMenu__xbtn">
+                <i class="fas fa-times fa-2x" onclick="closeNav2();"></i>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="location.html">Gangnam 강남</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Cheongdam 청담</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Doota 두타</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">AK Plaza 분당</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Starfield 고양</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Incheon Airport 인천공항</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Central City 센트럴시티</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Songdo 송도</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Seomyeon 서면</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Jonggak 종각</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Times Square 영등포</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">IParkmall 용산</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Dongseongro 대구</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Timeworld 대전</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Nowon 노원</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Coex 코엑스</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Dongtan 동탄</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Hongdae 홍대</a>
+            </div>
+            <div class="mobile-location-rightMenu__title">
+                <a href="#">Sillim 신림</a>
+            </div>
+
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- html 시작 -->
+    <header class="mobile-status-bar">
+            <a href="#"><i class="fas fa-bars fa-2x" onclick="openNav();"></i></a>
+
+            <a href="index.html"><img src="images/ss_logo.png" alt=""></a>
+
+            <a href="#"><i class="fas fa-map-marker-alt fa-2x" onclick="openNav2();"></i></a>
+    </header>
     <nav class="nav">
         <ul class="nav-list">
             <li class="nav-list-name"><a href="anniversary_5th.html">5TH ANNIVERSARY</a></li>
@@ -19,7 +144,10 @@
             <li class="nav-list-name"><a href="food_and_drink.html">FOOD & DRINK</a></li>
         </ul>
     </nav>
-    
+
+
+
+<div class="brand-story-pc">    
     <div class="main-slide main-slide00">
         <img src="images/sub_visual_brandstory.jpg">
         <div class="main-slide__text">
@@ -133,13 +261,88 @@
 
 
 
+</div>
 
+<div class="mobile-main-img">
+    <h2 class="mobile-main-img__title">Stand For Something Good</h2>
+    <h2 class="mobile-main-img__subtitle">세상에 필요한 사려 깊은 가치</h2>
+    <p class="mobile-main-img__text">
+        쉐이크쉑은 신선하고 좋은 재료의 음식과 즐겁고 활기 넘치는 <br>
+         지역사회의 모임 공간, 그리고 게스트를 향한 따뜻한 호스피탈리티를 통해 우리의 핵심 가치인 “Stand For Something Good”을 실천합니다.
+    </p>
+</div>
+
+
+
+
+
+<div class="mobile-title-and-Underbar">
+    <h1>Good Ingredients</h1>
+    <p>underline</p>
+</div>
+
+<div class="mobile-brandstory">
+    <p class="mobile-brandstory__title">쉐이크쉑의 모든 메뉴는 좋은 식재료에서 시작됩니다.</p>
+    <p class="mobile-brandstory__number">01</p>
+    <p class="mobile-brandstory__text">쉐이크쉑의 시그니처 앵거스 비프 패티는 양질의 맛과 식감으로 버거의 맛을 완성합니다.</p>
+    <img src="images/ingredient_01.jpg" alt="">
+
+    <p class="mobile-brandstory__number">02</p>
+    <p class="mobile-brandstory__text">토종 효모를 사용한 포테이토 번은 다양한 재료와 어우러지며 쫄깃한 식감을 선사합니다.</p>
+    <img src="images/ingredient_02.jpg" alt="">
+
+    <p class="mobile-brandstory__number">03</p>
+    <p class="mobile-brandstory__text">매일 아침, 매장에서 신선하게 제조되는 커스터드는 쫀득한 식감과 진한 풍미를 자랑합니다.</p>
+    <img src="images/ingredient_03.jpg" alt="">
+</div>
+
+<div class="mobile-title-and-Underbar">
+    <h1>Good ‘n’ Green</h1>
+    <p>underline</p>
+</div>
+
+<div class="mobile-brandstory">
+    <p class="mobile-brandstory__title">쉐이크쉑은 자연과 함께, 이웃과 함께하는 공간을 설계합니다.</p>
+    <p class="mobile-brandstory__number">01</p>
+    <p class="mobile-brandstory__text">매장이 위치한 지역의 특성을 반영한 호딩/인테리어를 통해 지역 사회와 하나 됩니다.</p>
+    <img src="images/green_01.jpg" alt="">
+
+    <p class="mobile-brandstory__number">02</p>
+    <p class="mobile-brandstory__text">식물 및 나무 목재를 적극적으로 활용한 친환경 그린 인테리어를 통해 도심 속의 휴식공간을 제공합니다.</p>
+    <img src="images/green_02.jpg" alt="">
+
+    <p class="mobile-brandstory__number">03</p>
+    <p class="mobile-brandstory__text">지역 아티스트와의 협업을 통해 완성한 아트워크를 통해 지역의 정체성이 담긴 매장 인테리어를 완성합니다.</p>
+    <img src="images/green_03.jpg" alt="">
+</div>
+
+<div class="mobile-title-and-Underbar">
+    <h1>Good Neighbors</h1>
+    <p>underline</p>
+</div>
+
+<div class="mobile-brandstory">
+    <p class="mobile-brandstory__title">쉐이크쉑은 활기 넘치는 지역 사회의 모임공간입니다.</p>
+    <p class="mobile-brandstory__number">01</p>
+    <p class="mobile-brandstory__text">쉐이크쉑을 방문하는 모든 이를 내 집에 온 손님처럼 응대하며 따뜻한 호스피탈리티를 제공합니다.</p>
+    <img src="images/neighbor_01.jpg" alt="">
+
+    <p class="mobile-brandstory__number">02</p>
+    <p class="mobile-brandstory__text">지속적인 기부 활동을 통해 판매 수익금의 일부를 지역사회에 환원합니다.</p>
+    <img src="images/neighbor_02.jpg" alt="">
+
+    <p class="mobile-brandstory__number">03</p>
+    <p class="mobile-brandstory__text">지역의 고유 브랜드와 협업하여 메뉴를 개발하고 원재료를 수급하여 지역 사회와 함께 성장합니다.</p>
+    <img src="images/neighbor_03.jpg" alt="">
+</div>
+
+<div class="nothing"></div> <!-- 맨 마지막 여백주기위한 칸  -->
 
 
 
    
 
-    <div class="footer">
+    <footer>
         <div class="footer__top">
             <ul class="footer__top__tb">
                 <li class="footer__top__tb__title">For You</li>
@@ -181,6 +384,39 @@
                 <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/shakeshackkorea/" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=188688734509783&amp;container_width=195&amp;href=https%3A%2F%2Fwww.facebook.com%2Fshakeshackkorea%2F&amp;layout=box_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false"><span style="vertical-align: bottom; width: 62px; height: 48px;"><iframe name="f3e7acc8322df28" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.6/plugins/like.php?action=like&amp;app_id=188688734509783&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2e88ac931f2874%26domain%3Dwww.shakeshack.kr%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fwww.shakeshack.kr%252Ff1163107aaef798%26relation%3Dparent.parent&amp;container_width=195&amp;href=https%3A%2F%2Fwww.facebook.com%2Fshakeshackkorea%2F&amp;layout=box_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" style="border: none; visibility: visible; width: 62px; height: 48px;" class=""></iframe></span></div>
             </div>
         </div>
+    </footer>
+
+    <div class="mobile-footer">
+        <div class="mobile-footer__title">For You</div>
+        <div class="mobile-footer__sub__title">
+            <a href="https://homevoc.spc.co.kr/Voc/created.ub" target="blank"><span>고객센터</span></a>
+            <a href="https://www.spc.co.kr/csr/right-mng/tip-off-intro/" target="blank"><span class="mobile-footer__left-border">윤리신고센터</span></a>
+            <a href="https://www.spc.co.kr/" target="blank"><span class="mobile-footer__left-border">SPC 홈페이지</span></a>
+        </div>
+        <div class="mobile-footer__title">shakeshack</div>
+        <div class="mobile-footer__sub__title">
+            <a href="https://www.jobkorea.co.kr/Search/?stext=%e3%88%9c%ed%8c%8c%eb%a6%ac%ed%81%ac%eb%9d%bc%ec%83%81" target="blank"><span>채용안내</span></a>
+            <a href="http://www.shakeshack.kr/location/location01.jsp" target="blank"><span class="mobile-footer__left-border">매장안내</span></a>
+            
+        </div>
+        <div class="mobile-footer__title">Social Media</div>
+        <div class="mobile-footer__sub__title">
+            <a href="https://www.instagram.com/shakeshackkr/" target="blank"><span>인스타그램</span></a>
+            <a href="https://post.naver.com/shakeshackkorea?isHome=1" target="blank"><span class="mobile-footer__left-border">네이버포스트</span></a>
+            <a href="https://www.youtube.com/channel/UCw86ggEkvY8_RXpvCFjNS6g" target="blank"><span class="mobile-footer__left-border">유튜브</span></a>
+            <a href="https://www.facebook.com/shakeshackkorea" target="blank"><span class="mobile-footer__left-border">페이스북</span></a>
+        </div>
+        <iframe class="mobile-footer__facebook-icon" name="f4bc4ab7acc094" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.6/plugins/like.php?action=like&amp;app_id=188688734509783&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1b64cc01793488%26domain%3Dwww.shakeshack.kr%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fwww.shakeshack.kr%252Ff40ee94eef993%26relation%3Dparent.parent&amp;container_width=195&amp;href=https%3A%2F%2Fwww.facebook.com%2Fshakeshackkorea%2F&amp;layout=box_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" style="border: none; visibility: visible; width: 62px; height: 48px;" ></iframe>
+
+        <img class="mobile-footer__logo" src="images/ss_logo_footer.png" alt="">
+        <div class="mobile-footer__text">
+            <p>2021 SHAKE SHACK. ALL RIGHTS RESERVED.</p>
+            <br>
+            <p>SOME INFORMATION ON THIS SITE MAY VARY SLIGHTLY BY</p>
+            <p>LOCATION AND IN STADIUMS,</p>
+            <p>EVENT VENUES AND INTERNATIONAL SHACKS.</p>
+        </div>
+        <div class="mobile-footer__text__last"><a href="http://www.shakeshack.kr/cs/cctv.jsp" target="blank">영상정보처리기기운영·관리방침</a></div>
     </div>
 
 
@@ -188,16 +424,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

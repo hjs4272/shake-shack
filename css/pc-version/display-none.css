@@ -6,3 +6,11 @@
 .mobile-footer{
     display: none;
 }
+
+
+.brand-story-M,
+.delivery-M,
+.food-drink-M,
+.location01-M{
+    display: none;
+}

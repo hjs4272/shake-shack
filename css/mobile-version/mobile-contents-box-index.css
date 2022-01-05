@@ -50,5 +50,8 @@
 }
 .contents-box-index__social__icon :nth-child(2){
     color: var(--green);
-    margin: 10px 0;
+    margin: 4px 0;
+}
+.contents-box-index__social__icon li {
+    padding: 2px 0;
 }

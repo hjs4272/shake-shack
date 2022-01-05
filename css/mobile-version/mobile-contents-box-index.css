@@ -43,9 +43,12 @@
 }
 .contents-box-index__social img{
     width: 70px;
-    margin-bottom: 5px;
 }
 .contents-box-index__social__icon{
     margin: 10px 10px;
     max-width: 135px;min-width: 135px;
+}
+.contents-box-index__social__icon :nth-child(2){
+    color: var(--green);
+    margin: 10px 0;
 }

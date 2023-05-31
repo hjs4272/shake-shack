@@ -1,3 +1,8 @@
+if(window.innerWidth<768){
+    window.location.href = 'https://hjs4272.github.io/shakeShake__m/'
+}
+
+
 // 햄버거 사이드 쇼업 메뉴
 function openNav(){
     $("#leftMenu").addClass("showLeftMenu");
